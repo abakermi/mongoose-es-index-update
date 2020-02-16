@@ -11,12 +11,3 @@ before_script:
 - npm-install-peers
 script:
 - npm run test
-deploy:
-  provider: npm
-  edge: true
-  email: abdelhak.akermi@gmail.com
-  api_key: "$NPM_TOKEN"
-   
-  on:
-    tags: true
-    repo: abakermi/mongoose-es-index-update
