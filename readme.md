@@ -1,4 +1,4 @@
-# mongoose-es-index-update [![Build Status](https://travis-ci.com/abakermi/mongoose-es-index-update.svg?branch=master)](https://travis-ci.com/abakermi/mongoose-es-index-update) ![npm (scoped)](https://img.shields.io/npm/v/abakermi/mongoose-es-index-update?style=plastic)
+# mongoose-es-index-update [![Build Status](https://travis-ci.com/abakermi/mongoose-es-index-update.svg?branch=master)](https://travis-ci.com/abakermi/mongoose-es-index-update) [![npm version](https://badge.fury.io/js/mongoose-es-index-update.svg)](https://badge.fury.io/js/mongoose-es-index-update)
 
 > update elastic search index after save , updateOne mongoose hooks
 
