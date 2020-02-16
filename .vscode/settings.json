@@ -1,0 +1,8 @@
+{
+    "xo.format.enable": true,
+    "xo.enable": true,
+    "xo.options": {
+        "camelcase":false,
+        "no-unused-vars":false
+    }
+}
