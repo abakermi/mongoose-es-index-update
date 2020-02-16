@@ -19,4 +19,4 @@ deploy:
    
   on:
     tags: true
-    repo: abakermi/mongoose-es-update
+    repo: abakermi/mongoose-es-index-update
