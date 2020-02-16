@@ -18,9 +18,7 @@
 		"lint": "xo",
 		"test": "ava"
 	},
-	"files": [
-		"lib/index.js"
-	],
+	"main":"lib/index.js",
 	"keywords": [
 		"mongoose",
 		"elastic",
