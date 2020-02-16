@@ -1,0 +1,47 @@
+{
+	"name": "mongoose-es-index-update",
+	"version": "1.0.0",
+	"description": "update elastic search index within mongoose hooks",
+	"license": "MIT",
+	"repository": "abakermi/mongoose-es-index-update",
+	"author": {
+		"name": "Abdelhak Akermi",
+		"email": "abdelhak.akermi@gmail.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"lint": "xo",
+		"test": "ava"
+	},
+	"files": [
+		"lib/index.js"
+	],
+	"keywords": [
+		"mongoose",
+		"elastic",
+		"search",
+		"index",
+		"save"
+	],
+	"peerDependencies": {
+		"mongoose": "^5.8.12",
+		"@elastic/elasticsearch": "^7.6.0"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^2.1.0",
+		"mongodb-memory-server": "^6.2.4",
+		"mongomem": "^0.1.9",
+		"xo": "^0.24.0"
+	},
+	"ava": {
+		"files": [
+			"tests/**/*.spec.js"
+		]
+	},
+	"xo": {
+		"camelcase": false
+	}
+}
