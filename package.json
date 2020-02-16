@@ -1,6 +1,6 @@
 {
 	"name": "mongoose-es-index-update",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "update elastic search index within mongoose hooks",
 	"license": "MIT",
 	"repository": "abakermi/mongoose-es-index-update",
@@ -18,7 +18,7 @@
 		"lint": "xo",
 		"test": "ava"
 	},
-	"main":"lib/index.js",
+	"main": "lib/index.js",
 	"keywords": [
 		"mongoose",
 		"elastic",
