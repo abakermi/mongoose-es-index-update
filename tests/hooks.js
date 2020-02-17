@@ -15,6 +15,7 @@ const model = {email: 'one@example.com', name: 'One', country: 'en'};
 // Create connection to mongoose before all tests
 exports.before = async t => {
 	mongoose.connect(await mongod.getConnectionString(), {useNewUrlParser: true, useUnifiedTopology: true});
+
 	await client.indices.create({
 		index: 'user'
 	});
