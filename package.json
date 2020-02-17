@@ -1,6 +1,6 @@
 {
 	"name": "mongoose-es-index-update",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "update elastic search index within mongoose hooks",
 	"license": "MIT",
 	"repository": "abakermi/mongoose-es-index-update",
@@ -34,7 +34,6 @@
 	"devDependencies": {
 		"ava": "^2.1.0",
 		"cz-conventional-changelog": "^3.1.0",
-		"husky": "^4.2.3",
 		"mongodb-memory-server": "^6.2.4",
 		"mongomem": "^0.1.9",
 		"xo": "^0.24.0"
@@ -50,11 +49,6 @@
 	"config": {
 		"commitizen": {
 			"path": "./node_modules/cz-conventional-changelog"
-		}
-	},
-	"husky": {
-		"hooks": {
-			"prepare-commit-msg": "exec < /dev/tty && git cz --hook"
 		}
 	}
 }
