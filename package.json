@@ -33,7 +33,6 @@
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^2.1.0",
-		"cz-conventional-changelog": "^3.1.0",
 		"mongodb-memory-server": "^6.2.4",
 		"mongomem": "^0.1.9",
 		"xo": "^0.24.0"
@@ -45,10 +44,5 @@
 	},
 	"xo": {
 		"camelcase": false
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
 	}
 }
