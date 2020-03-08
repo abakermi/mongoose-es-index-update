@@ -11,7 +11,7 @@ const client = new Client({
 	node: 'http://localhost:9200'
 
 });
-const model = {email: 'one@example.com', name: 'One', country: 'en'};
+const model = {email: 'one@example.com', name: 'One', country: 'en', createdAt: Date.now()};
 // Create connection to mongoose before all tests
 exports.before = async t => {
 	mongoose.connect(await mongod.getConnectionString(), {useNewUrlParser: true, useUnifiedTopology: true});
@@ -19,7 +19,16 @@ exports.before = async t => {
 	await client.indices.create({
 		index: 'user'
 	});
-
+	client.indices.putMapping({
+		index: 'users',
+		type: 'staff',
+		body: {
+			properties: {
+				country: {type: 'text'},
+				name: {type: 'text'},
+				createdAt: {type: 'date',
+			 format: 'basic_date_time||epoch_millis||yyyyMMdd’T’HHmmss.SSSZ'}
+			}}});
 	t.context.client = client;
 };
 

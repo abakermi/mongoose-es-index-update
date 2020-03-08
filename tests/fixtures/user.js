@@ -14,6 +14,9 @@ const userSchema = new Schema({
 	},
 	country: {
 		type: String
+	},
+	createdAt: {
+		type: Date
 	}
 });
 userSchema.plugin(plugins, {index: 'user'});

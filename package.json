@@ -33,6 +33,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^2.1.0",
+		"moment": "^2.24.0",
 		"mongodb-memory-server": "^6.2.4",
 		"mongomem": "^0.1.9",
 		"xo": "^0.24.0"
