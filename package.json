@@ -1,6 +1,6 @@
 {
 	"name": "mongoose-es-index-update",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "update elastic search index within mongoose hooks",
 	"license": "MIT",
 	"repository": "abakermi/mongoose-es-index-update",
